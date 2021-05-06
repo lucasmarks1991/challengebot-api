@@ -1,0 +1,33 @@
+{
+  "name": "challengebot-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sucrase ./Api/src -d ./Api/dist --transforms imports",
+    "start": "node Api/dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasmarks1991/challengebot-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasmarks1991/challengebot-api/issues"
+  },
+  "homepage": "https://github.com/lucasmarks1991/challengebot-api#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "sucrase": "^3.18.1"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
